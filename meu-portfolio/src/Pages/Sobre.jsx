@@ -3,9 +3,9 @@ import Avatar from './../assets/avatar.webp';
 
 const Sobre = () => {
     return (
-        <section className="flex flex-col md:flex-row items-center justify-center gap-10 p-4 bg-gray-900 h-screen">
+        <section className="flex flex-col md:flex-row items-center justify-center gap-10 p-4 bg-gray-900 min-h-screen">
             <div className="flex justify-center mb-10 md:mb-0">
-                <img src={Avatar} alt="Foto-Perfil" className="h-96 rounded-full shadow-lg" />
+                <img src={Avatar} alt="Foto-Perfil" className="h-48 md:h-96 rounded-full shadow-lg" />
             </div>
             <div className="flex flex-col gap-8 max-w-xl text-center md:text-left">
                 <h1 className="text-5xl font-bold text-yellow-400">Sobre mim</h1>
