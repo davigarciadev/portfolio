@@ -5,7 +5,7 @@ import C from './../assets/c-icon.png';
 
 const Habilidades = () => {
     return (
-        <section className="bg-gray-900 p-10">
+        <section className="min-h-screen p-10 flex flex-col bg-gray-900 p-10">
             <div className="flex flex-col justify-center items-center gap-10">
                 <h1 className="text-5xl font-bold text-yellow-400">Habilidades</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
